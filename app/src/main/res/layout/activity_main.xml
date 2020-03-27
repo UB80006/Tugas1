@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/pen"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="78dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp">
+
+                    <EditText
+                        android:layout_width="197dp"
+                        android:layout_height="match_parent"
+                        android:hint="@string/np">
+                    </EditText>
+                    <EditText
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:hint="@string/nb">
+                    </EditText>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="78dp"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/tl">
+
+                    </EditText>
+
+                    <EditText
+                        android:layout_width="213dp"
+                        android:layout_height="match_parent"
+                        android:hint="@string/tal">
+
+                    </EditText>
+
+                </TableRow>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="93dp"
+                    android:layout_marginVertical="40dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/al">
+
+                </EditText>
+                <RadioGroup>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/jk"
+                        android:textSize="17sp">
+                    </TextView>
+                    <TableRow
+
+                        android:layout_marginTop="15dp">
+                        <RadioButton
+                            android:text="@string/l"
+                            android:layout_marginHorizontal="15dp">
+
+                        </RadioButton>
+                        <RadioButton
+                            android:text="@string/p"
+                            android:layout_marginHorizontal="15dp">
+
+                        </RadioButton>
+                    </TableRow>
+
+                </RadioGroup>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ag"
+                            >
+
+                        </TextView>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/i">
+
+                        </RadioButton>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ka"
+                            >
+
+                        </RadioButton>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bu">
+
+                        </RadioButton>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ak">
+
+                        </RadioButton>
+
+                    </RadioGroup>
+                    <RadioGroup
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content">
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/kr">
+
+                        </RadioButton>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hi">
+
+                        </RadioButton>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ko">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+                </TableRow>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:hint="@string/telp">
+
+                </EditText>
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:hint="@string/em">
+
+                </EditText>
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
